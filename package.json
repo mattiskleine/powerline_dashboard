@@ -1,0 +1,22 @@
+{
+  "name": "powerline_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattiskleine/powerline_dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattiskleine/powerline_dashboard/issues"
+  },
+  "homepage": "https://github.com/mattiskleine/powerline_dashboard#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

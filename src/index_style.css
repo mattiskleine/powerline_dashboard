@@ -1,0 +1,120 @@
+body {
+    background-color: #eeeeee;
+}
+
+#overview {
+    position: absolute;
+    top: 4vh;
+    left: 2vw;
+    width: 60vw;
+    height: 33vh;
+    background-color: #ffffff;
+    border-radius: 0.5vw;
+    box-shadow: 0.1vw 0.1vw 1vw rgba(0, 0, 0, 0.2);
+}
+
+#forecast {
+    position: absolute;
+    bottom: 4vh;
+    left: 2vw;
+    width: 60vw;
+    height: 57vh;
+    background-color: #ffffff;
+    border-radius: 0.5vw;
+    box-shadow: 0.1vw 0.1vw 1vw rgba(0, 0, 0, 0.2);
+}
+
+#list {
+    position: absolute;
+    top: 4vh;
+    right: 2vw;
+    width: 35vw;
+    height: 92vh;
+    background-color: #ffffff;
+    border-radius: 0.5vw;
+    box-shadow: 0.1vw 0.1vw 1vw rgba(0, 0, 0, 0.2);
+    overflow: scroll;
+}
+
+.heading1 {
+    position: absolute;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: left;
+    top: 4vh;
+    left: 6vw;
+}
+
+.heading2 {
+    position: absolute;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    left: 6vw;
+}
+
+.value {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5vw;
+    color: #63dba5;
+    left: 40%;
+    display: inline;
+    padding-left: 1vw;
+    font-weight: 300;
+}
+
+#static_h {
+    top: 40%;
+}
+
+#thermal_h {
+    top: 60%;
+}
+
+#thermal_v {
+    color: black;
+}
+
+#dynamic_bar_chart_container {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    width: 40%;
+    height: 60%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    text-align: center;
+}
+
+#table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1vw;
+    font-weight: 100;
+}
+
+th {
+    background-color: #34576e;
+    color: #ffffff;
+    line-height: 3vw;
+    width: 33%;
+    font-weight: 400;
+}
+
+td {
+    line-height: 3vw;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+}
+
+#forecast_chart_container{
+    position: absolute;
+    top: 15%;
+    left: 6vw;
+    width: 80%;
+    height: 80%;
+}

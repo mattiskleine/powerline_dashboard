@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="src/index_style.css">
+<link rel="shortcut icon" href="#" />
+<title>Playground</title>
+</head>
+<body>
+
+    <div id="overview">
+        <div class="heading1" id="overview_name">Powerline Name</div>
+        <div class="heading2" id="static_h">Static Rating:
+            <div class="value" id="static_v">398 A</div>
+        </div>
+        <div class="heading2" id="thermal_h">Thermal Limit:
+            <div class="value" id="thermal_v">71 °C</div>
+        </div>
+
+        <div id="dynamic_bar_chart_container">Dynamic Rating
+            <canvas id="dynamic_bar_chart"></canvas>
+        </div>
+    </div>
+    
+    <div id="forecast">
+        <div class="heading1" id="forecast_heading">48h Forecast</div>
+        <div id="forecast_chart_container">
+            <canvas id="forecast_chart"></canvas>
+        </div>
+    </div>
+    <div id="list">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Powerline Name</th>
+                    <th>Current Rating</th>
+                    <th>Prognosed 48h Peak</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+
+<script type="text/javascript" src="src/index_script.js"></script>    
+</body>
+</html>
