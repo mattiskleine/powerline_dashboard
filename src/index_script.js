@@ -211,8 +211,8 @@ function pickRandom() {
 
 function fillFocus(x) {
     document.getElementById('overview_name').innerHTML = x.name;
-    document.getElementById('static_v').innerHTML = x.static;
-    document.getElementById('thermal_v').innerHTML = x.thermal;
+    document.getElementById('static_v').innerHTML = `${x.static} A`;
+    document.getElementById('thermal_v').innerHTML = `${x.thermal} °C`;
 
     document.getElementById('static_v').style.color = getColor(x.static);
 
